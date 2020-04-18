@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sailor/sailor.dart';
 
 class ThirdPage extends StatelessWidget {
   final ThirdPageArguments arguments;
@@ -31,7 +30,7 @@ class ThirdPage extends StatelessWidget {
   }
 }
 
-class ThirdPageArguments extends BaseArguments {
+class ThirdPageArguments {
   final String name;
   final int price;
 
